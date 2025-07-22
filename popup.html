@@ -10,7 +10,15 @@
   <h1>Tab Title Saver</h1>
 
   <div id="result">
-    <button id="printBtn">Print</button>
+    <button id="getTitleBtn">Get Title</button>
+  </div>
+
+  <div id="titleDisplay" style="display: none;">
+    <div class="title-container">
+      <h3>Current Tab Title:</h3>
+      <p id="currentTitle"></p>
+      <div class="timestamp"></div>
+    </div>
   </div>
 
   <input type="text" id="searchInput" placeholder="Search saved titles..." />

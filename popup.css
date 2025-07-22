@@ -37,44 +37,47 @@ button:hover {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   padding: 8px 10px;
-  flex-wrap: wrap;
 }
 
-#titleText {
-  flex: 1;
-  font-size: 14px;
-  color: #1f2937;
-  min-width: 200px;
-}
-
-#copyBtn {
+#getTitleBtn {
   background: #10b981;
   padding: 6px 10px;
   border-radius: 5px;
 }
 
-#copyBtn:hover {
+#getTitleBtn:hover {
   background: #059669;
 }
 
-#printBtn {
-  background: #f59e0b;
-  padding: 6px 10px;
-  border-radius: 5px;
+#titleDisplay {
+  margin-bottom: 16px;
 }
 
-#printBtn:hover {
-  background: #d97706;
+.title-container {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 12px;
 }
 
-#showTitleBtn {
-  background: #8b5cf6;
-  padding: 6px 10px;
-  border-radius: 5px;
+.title-container h3 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #374151;
 }
 
-#showTitleBtn:hover {
-  background: #7c3aed;
+#currentTitle {
+  font-size: 14px;
+  color: #1f2937;
+  margin: 0 0 8px 0;
+  word-wrap: break-word;
+  line-height: 1.4;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #6b7280;
+  text-align: center;
 }
 
 #searchInput {
