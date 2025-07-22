@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Title Fetcher",
+  "version": "1.0",
+  "description": "Fetches current tab's title, copies, and saves history.",
+  "permissions": ["tabs", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  
+  }
+}
